@@ -1,4 +1,4 @@
-$systems = Get-content systems.conf
+$systems = Get-content Remote/Users-Active/systems.conf
 
 function Users-Active([string]$name, [string]$ip){
     Write-Host "Checking ACtive Users..."

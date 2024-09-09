@@ -1,0 +1,5 @@
+Section, Method, Command, Arguments, Name, Description
+Local, powershell_file, Local/AddTo-AdminGroup.ps1, ,Add To Admin Group, Prompts for user to add to adminstrator group
+Remote, powershell_file, Remote/Systems-Up/systemsup.ps1, , Systems Up, Pings a list of systems defined in Systems-Up/systems.conf
+Remote, powershell_file, Remote/Users-Active/usersActive.ps1, , Active Users, Queries active users on systems defined in Users-Active/systmes.conf
+Remote, powershell_file, Remote/Drives-Encrypted/DrivesEncrypted.ps1, , Encrypted Drives, Queries bitlocker state on systems defined in Drives-Encrypted/systems.conf

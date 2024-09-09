@@ -1,4 +1,4 @@
-$systems = Get-content systems.conf
+$systems = Get-content Remote/Drives-Encrypted/systems.conf
 
 function Drives-Encrypted([string]$name, [string]$ip){
     Write-Host "Checking Encrypted Drives..."

@@ -1,4 +1,4 @@
-$systems = Get-content systems.conf
+$systems = Get-content Remote/Systems-Up/systems.conf
 
 function system-checkOnline([string]$name, [string]$ip){
     if (Test-Connection -ComputerName $ip -Count 1 -Quiet) {
