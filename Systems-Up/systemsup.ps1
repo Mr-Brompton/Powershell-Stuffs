@@ -25,4 +25,4 @@ foreach ($system in $Systems) {
         system-checkOnline $name $ip
     }
 }
-Read-Host " "
+Read-Host "..."
